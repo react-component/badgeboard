@@ -1,56 +1,32 @@
 # organization name, it's used to get github repo url, also in page title
-name: jshttp
+name: react-component
 
 # badge style, can be "flat", "flat-square" or ""
 # see http://shields.io/ for details
 badge_style: flat-square
 
 # meta headers in html
-title:       BadgeBoard
-description: project status at a glance
-keywords:    badgeboard, repo-utils
+title:       react-component
+description: react-component
+keywords: react-component
 
 # list of projects, this will be sorted by name;
 # every package is either string or object
 projects:
- - on-headers
- - on-finished
- - vary
- - mime-db:
-     node: 0.6   # you can override stuff from db.json here, i.e. node version
+ - generator-rc
+ - rc-pager:
+     repo: react-component/pager
+ - rc-calendar:
+     repo: react-component/calendar
 
 # list of maintainers, this won't be sorted
 maintainers:
- - name:    Doug Wilson
-   github:  dougwilson   # github account, required: we link to it
-   npm:     dougwilson   # npm account, required to determine lead maintainer
-   twitter: blipsofadoug # twitter account, optional
-   gittip:  dougwilson   # gittub badge, optional
-   email:   doug@somethingdoug.com
-
- - name:    Jonathan Ong
-   github:  jonathanong
-   npm:     jongleberry
-   twitter: jongleberry
-   gittip:  jonathanong
-   email:   me@jongleberry.com
-
-   # if gravatar is attached to an email different from specified above,
-   # add md5 of it here:
-   avatar:  6e33cc0412b61cc01daac23c8989003c
-
- - name:    Jeremiah Senkpiel
-   github:  fishrock123
-   npm:     fishrock123
-   twitter: fishrock123
-   gittip:  Fishrock123
-   email:   fishrock123@rocketmail.com
-
- - name:    Alex Kocharin
-   github:  rlidwka
-   npm:     rlidwka
-   twitter: rlidwka
-   email:   alex@kocharin.ru
+ - name:    YiMing He
+   github:  yiminghe
+   npm:     yiminghe
+   twitter: yiminghe
+   email:   yiminghe@gmail.com
+   gittip:  yiminghe
 
 # this determines what info will be fetched with `make db`;
 # you can comment out stuff to reduce number of http requests
