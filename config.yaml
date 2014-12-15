@@ -14,10 +14,17 @@ keywords: react-component
 # every package is either string or object
 projects:
  - generator-rc
+ - rc-server
  - rc-pager:
      repo: react-component/pager
  - rc-calendar:
      repo: react-component/calendar
+ - rc-dialog:
+     repo: react-component/dialog
+ - rc-tabs:
+     repo: react-component/tabs
+ - rc-table:
+     repo: react-component/table
 
 # list of maintainers, this won't be sorted
 maintainers:
@@ -27,6 +34,7 @@ maintainers:
    twitter: yiminghe
    email:   yiminghe@gmail.com
    gittip:  yiminghe
+
 
 # this determines what info will be fetched with `make db`;
 # you can comment out stuff to reduce number of http requests
