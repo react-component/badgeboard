@@ -34,7 +34,12 @@ maintainers:
    twitter: yiminghe
    email:   yiminghe@gmail.com
    gittip:  yiminghe
-
+ - name:    XiaoQing Dong
+   github:  dxq613
+   npm:     dxq613
+   twitter: dxq613
+   email:   dxq613@gmail.com
+   gittip:  dxq613
 
 # this determines what info will be fetched with `make db`;
 # you can comment out stuff to reduce number of http requests
