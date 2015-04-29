@@ -15,6 +15,7 @@ keywords: react-component
 projects:
  - generator-rc
  - rc-server
+ - rc-tools
  - rc-pager:
      repo: react-component/pager
  - rc-calendar:
@@ -25,6 +26,20 @@ projects:
      repo: react-component/tabs
  - rc-table:
      repo: react-component/table
+ - rc-dropzone:
+     repo: react-component/dropzone
+ - rc-menu:
+     repo: react-component/menu
+ - rc-select:
+     repo: react-component/select
+ - rc-tooltip:
+     repo: react-component/tooltip
+ - rc-form-validation:
+     repo: react-component/form-validation
+ - rc-css-transition-group:
+     repo: react-component/css-transition-group
+ - rc-cascade-select:
+     repo: react-component/cascade-select
 
 # list of maintainers, this won't be sorted
 maintainers:
@@ -40,7 +55,18 @@ maintainers:
    twitter: dxq613
    email:   dxq613@gmail.com
    gittip:  dxq613
-
+ - name:    Eward Song
+   github:  shepherdwind
+   npm:     shepherdwind
+   twitter: shepherdwind
+   email:   eward.song@gmail.com
+   gittip:  shepherdwind
+ - name:    warmhug
+   github:  warmhug
+   npm:     warmhug
+   twitter: warmhug
+   email:   hualei5280@gmail.com
+   gittip:  warmhug
 # this determines what info will be fetched with `make db`;
 # you can comment out stuff to reduce number of http requests
 db.json:

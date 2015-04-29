@@ -10,7 +10,7 @@ var YAML = require('js-yaml')
 
 var data = {
   projects: {},
-  maintainers: {},
+  maintainers: {}
 }
 var config = require('./config')
 var maintainersDB = config.maintainers
@@ -43,7 +43,7 @@ require('co')(function *() {
 
 //
 // Generators
-// 
+//
 
 function *getNpmInfo(pkg) {
   return JSON.parse(yield get('https://registry.npmjs.org/' + pkg))
@@ -65,11 +65,12 @@ function *getUserInfo(user) {
 }
 
 function *getOwnedPackages(user) {
-  var data = yield get('http://isaacs.iriscouch.com/'
-                     + 'registry/_design/app/_view/browseAuthors'
-                     + '?startkey=' + escapeJSON([user])
-                     + '&endkey=' + escapeJSON([user, {}])
-                     + '&group_level=1') // set group_level=2 for list
+  var data = yield get('https://skimdb.npmjs.com/'
+  + 'registry/_design/app/_view/browseAuthors'
+  + '?startkey=' + escapeJSON([user])
+  + '&endkey=' + escapeJSON([user, {}])
+  + '&group_level=1') // set group_level=2 for list
+  console.log(data);
   return JSON.parse(data).rows[0].value
 }
 
