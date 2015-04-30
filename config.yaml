@@ -40,7 +40,10 @@ projects:
      repo: react-component/css-transition-group
  - rc-cascade-select:
      repo: react-component/cascade-select
-
+ - rc-input-number:
+     repo: react-component/input-number
+ - rc-progress:
+     repo: react-component/progress
 # list of maintainers, this won't be sorted
 maintainers:
  - name:    YiMing He
@@ -67,6 +70,12 @@ maintainers:
    twitter: warmhug
    email:   hualei5280@gmail.com
    gittip:  warmhug
+ - name:    shuaiji.tsj
+   github:  tsj1107
+   npm:     tsj1107
+   twitter: tsj1107
+   email:   tsjxyz@gmail.com
+   gittip:  tsj1107
 # this determines what info will be fetched with `make db`;
 # you can comment out stuff to reduce number of http requests
 db.json:
