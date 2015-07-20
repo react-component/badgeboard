@@ -44,6 +44,26 @@ projects:
      repo: react-component/input-number
  - rc-progress:
      repo: react-component/progress
+ - rc-upload:
+     repo: react-component/upload
+ - rc-pagination:
+     repo: react-component/pagination
+ - rc-checkbox:
+     repo: react-component/checkbox
+ - rc-radio:
+     repo: react-component/radio
+ - rc-slider:
+     repo: react-component/slider
+ - rc-collapse:
+     repo: react-component/collapse
+ - rc-steps:
+     repo: react-component/steps
+ - rc-switch:
+     repo: react-component/switch
+ - rc-dropdown:
+     repo: react-component/dropdown
+ - rc-notification:
+     repo: react-component/notification     
 # list of maintainers, this won't be sorted
 maintainers:
  - name:    YiMing He
@@ -76,6 +96,36 @@ maintainers:
    twitter: tsj1107
    email:   tsjxyz@gmail.com
    gittip:  tsj1107
+ - name:    ibigbug
+   github:  ibigbug
+   npm:     ibigbug
+   twitter: ibigbug
+   email:   xiaobayuwei@gmail.com
+   gittip:  ibigbug
+ - name:    simaq
+   github:  simaq
+   npm:     simaq
+   twitter: simaq
+   email:   sima.zhang1990@gmail.com
+   gittip:  simaq
+ - name:    yuhangge 
+   github:  yuhangge 
+   npm:     yuhangge 
+   twitter: yuhangge 
+   email:   abeyuhang@gmail.com
+   gittip:  yuhangge
+ - name:    sliuqin 
+   github:  sliuqin 
+   npm:     sliuqin 
+   twitter: sliuqin 
+   email:   sliuqin@gmail.com
+   gittip:  sliuqin
+ - name:    jljsj33 
+   github:  jljsj33 
+   npm:     jljsj33 
+   twitter: jljsj33 
+   email:   155259966@qq.com
+   gittip:  jljsj33
 # this determines what info will be fetched with `make db`;
 # you can comment out stuff to reduce number of http requests
 db.json:
