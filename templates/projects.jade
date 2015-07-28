@@ -9,6 +9,7 @@ mixin projects(projects)
           | Project
           //- marker means "sorted by default"; should be in .js, but I'm lazy
           span#sorttable_sortfwdind &nbsp;&#x25BE;
+        th Homepage
         th Maintainer
         th.empty(colspan='6')
     tbody
@@ -18,6 +19,7 @@ mixin projects(projects)
 mixin project-row(project)
   tr
     td: +project(project)
+    td: +homepage(project)
     td: +maintainer(project.maintainer)
     td: +badge-npm(project.npm)
     td: +badge-version(project.node)
@@ -28,6 +30,9 @@ mixin project-row(project)
 
 mixin project(project)
   a(title=project.description, href='https://github.com/' + project.repo)= project.name
+
+mixin homepage(project)
+  a(title=project.description, href='http://react-component.github.io/' + project.name.replace(/^rc-/,''))= project.name
 
 mixin maintainer(person)
   if typeof(person) === 'object' && person != null

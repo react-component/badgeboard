@@ -13,57 +13,68 @@ keywords: react-component
 # list of projects, this will be sorted by name;
 # every package is either string or object
 projects:
- - generator-rc
- - rc-server
- - rc-tools
- - rc-pager:
-     repo: react-component/pager
+ - rc-align:
+     repo: react-component/align
+ - rc-animate:
+     repo: react-component/animate
  - rc-calendar:
      repo: react-component/calendar
- - rc-dialog:
-     repo: react-component/dialog
- - rc-tabs:
-     repo: react-component/tabs
- - rc-table:
-     repo: react-component/table
- - rc-dropzone:
-     repo: react-component/dropzone
- - rc-menu:
-     repo: react-component/menu
- - rc-select:
-     repo: react-component/select
- - rc-tooltip:
-     repo: react-component/tooltip
- - rc-form-validation:
-     repo: react-component/form-validation
- - rc-css-transition-group:
-     repo: react-component/css-transition-group
  - rc-cascade-select:
      repo: react-component/cascade-select
- - rc-input-number:
-     repo: react-component/input-number
- - rc-progress:
-     repo: react-component/progress
- - rc-upload:
-     repo: react-component/upload
- - rc-pagination:
-     repo: react-component/pagination
  - rc-checkbox:
      repo: react-component/checkbox
- - rc-radio:
-     repo: react-component/radio
- - rc-slider:
-     repo: react-component/slider
  - rc-collapse:
      repo: react-component/collapse
+ - rc-css-transition-group:
+     repo: react-component/css-transition-group  
+ - rc-dialog:
+     repo: react-component/dialog 
+ - rc-dropdown:
+     repo: react-component/dropdown
+ - rc-dropzone:
+     repo: react-component/dropzone  
+ - rc-form-validation:
+     repo: react-component/form-validation
+ - rc-input-number:
+     repo: react-component/input-number
+ - rc-menu:
+     repo: react-component/menu
+ - rc-notification:
+     repo: react-component/notification
+ - rc-pager:
+     repo: react-component/pager
+ - rc-pagination:
+     repo: react-component/pagination
+ - rc-progress:
+     repo: react-component/progress
+ - rc-radio:
+     repo: react-component/radio
+ - react-colors-picker:
+     repo: react-component/react-colors-picker
+ - react-scoped-style:
+     repo: react-component/react-scoped-style
+ - rc-select:
+     repo: react-component/select
+ - rc-slider:
+     repo: react-component/slider
  - rc-steps:
      repo: react-component/steps
  - rc-switch:
      repo: react-component/switch
- - rc-dropdown:
-     repo: react-component/dropdown
- - rc-notification:
-     repo: react-component/notification     
+ - rc-table:
+     repo: react-component/table
+ - rc-tabs:
+     repo: react-component/tabs
+ - rc-tooltip:
+     repo: react-component/tooltip
+ - rc-tree:
+     repo: react-component/tree
+ - rc-upload:
+     repo: react-component/upload
+ - generator-rc
+ - rc-server
+ - rc-tools
+ 
 # list of maintainers, this won't be sorted
 maintainers:
  - name:    YiMing He
