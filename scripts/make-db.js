@@ -26,7 +26,7 @@ require('co')(function *() {
   yield [getInfoFromNpm, getInfoFromGithub, getMaintainersInfo]
 
   // it's pretty-printed only for git diffs, don't edit that manually
-  var json = JSON.stringify(data, function(k, obj) {
+  var json = JSON.stringify(data, function (k, obj) {
     if (typeof obj !== 'object') return obj
     var ret = Object.create(null)
     if (k === "") {
@@ -34,7 +34,9 @@ require('co')(function *() {
       ret['//2'] = "you're free to change it as you like,"
       ret['//3'] = "but it will be overwritten on the next build."
     }
-    Object.keys(obj).sort().forEach(function(i) { ret[i] = obj[i] })
+    Object.keys(obj).sort().forEach(function (i) {
+      ret[i] = obj[i]
+    })
     return ret
   }, 2)
   require('fs').writeFileSync(__dirname + '/db.json', json)
@@ -51,25 +53,25 @@ function *getNpmInfo(pkg) {
 
 function *getTravis(repo) {
   var result = yield get('https://raw.githubusercontent.com/'
-                         + repo + '/master/.travis.yml')
+    + repo + '/master/.travis.yml')
   try {
     return YAML.safeLoad(result)
-  } catch(_) {
+  } catch (_) {
     return {}
   }
 }
 
 function *getUserInfo(user) {
   return JSON.parse(yield get('https://registry.npmjs.org/'
-                              + '_users/org.couchdb.user:' + user))
+    + '_users/org.couchdb.user:' + user))
 }
 
 function *getOwnedPackages(user) {
   var data = yield get('https://skimdb.npmjs.com/'
-  + 'registry/_design/app/_view/browseAuthors'
-  + '?startkey=' + escapeJSON([user])
-  + '&endkey=' + escapeJSON([user, {}])
-  + '&group_level=1') // set group_level=2 for list
+    + 'registry/_design/app/_view/browseAuthors'
+    + '?startkey=' + escapeJSON([user])
+    + '&endkey=' + escapeJSON([user, {}])
+    + '&group_level=1') // set group_level=2 for list
   console.log(data);
   return JSON.parse(data).rows[0].value
 }
@@ -87,9 +89,9 @@ function *getMaintainersInfo() {
 
 function *getInfoFromNpm() {
   if (!config['db.json'].projects.maintainer
-   && !config['db.json'].projects.description) return
+    && !config['db.json'].projects.description) return
 
-  for (var i=0; i<projectsDB.length; i++) {
+  for (var i = 0; i < projectsDB.length; i++) {
     var project = projectsDB[i]
     var npm = yield getNpmInfo(project.npm)
     var projectData = data.projects[project.name]
@@ -101,11 +103,12 @@ function *getInfoFromNpm() {
 
 function *getInfoFromGithub() {
   if (!config['db.json'].projects.node) return
-  for (var i=0; i<projectsDB.length; i++) {
+  for (var i = 0; i < projectsDB.length; i++) {
     var project = projectsDB[i]
     var travis = yield getTravis(project.repo)
     var projectData = data.projects[project.name]
     if (travis.node_js) {
+      //console.log(project.name, travis.node_js);
       projectData.node = travis.node_js.sort(versionSort)[0]
     }
   }
@@ -116,12 +119,12 @@ function *getInfoFromGithub() {
 //
 
 function get(url) {
-  return function(cb) {
+  return function (cb) {
     console.log(' -> ' + url.split('?')[0])
     request.get({
       url: url,
       encoding: 'utf8',
-    }, function(err, res, body) {
+    }, function (err, res, body) {
       cb(err, body)
     })
   }
@@ -133,6 +136,8 @@ function escapeJSON(data) {
 }
 
 function versionSort(a, b) {
+  a += '';
+  b += '';
   a = a.split('.')
   b = b.split('.')
   if (a[0] != b[0]) return a[0] - b[0]
