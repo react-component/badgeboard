@@ -73,6 +73,8 @@ projects:
      repo: react-component/tree
  - rc-upload:
      repo: react-component/upload
+ - rc-trigger:
+     repo: react-component/trigger
  - generator-rc
  - rc-server
  - rc-tools
