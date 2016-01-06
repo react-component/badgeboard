@@ -75,6 +75,20 @@ projects:
      repo: react-component/upload
  - rc-trigger:
      repo: react-component/trigger
+ - rc-time-picker:
+     repo: react-component/time-picker
+ - rc-form:
+     repo: react-component/form
+ - rc-cascader:
+     repo: react-component/cascader
+ - rc-tree-select:
+     repo: react-component/tree-select
+ - rmc-picker:
+     repo: react-component/m-picker
+ - rmc-date-picker:
+     repo: react-component/m-date-picker
+ - rmc-modal:
+     repo: react-component/m-modal
  - generator-rc
  - rc-server
  - rc-tools
@@ -147,6 +161,12 @@ maintainers:
    twitter: jljsj33 
    email:   155259966@qq.com
    gittip:  jljsj33
+ - name:    noyobo
+   github:  noyobo
+   npm:     noyobo
+   twitter: noyobo
+   email:   noyobo@gmail.com
+   gittip:  noyobo
 # this determines what info will be fetched with `make db`;
 # you can comment out stuff to reduce number of http requests
 db.json:
