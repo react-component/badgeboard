@@ -27,7 +27,7 @@ mixin badge-coverage(repo)
     +badge('/coveralls/' + repo)
 
 mixin badge-downloads(npm)
-  a(href='https://npmjs.org/package/' + npm)
+  a(href='https://npmcharts.com/compare/' + npm + '?minimal=true')
     +badge('/npm/dm/' + npm)
 
 mixin badge-gittip(user)
