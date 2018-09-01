@@ -135,15 +135,8 @@ function escapeJSON(data) {
 }
 
 function versionSort(a, b) {
-<<<<<<< HEAD
-  a += '';
-  b += '';
-  a = a.split('.')
-  b = b.split('.')
-=======
   a = String(a).split('.')
   b = String(b).split('.')
->>>>>>> ec7d06947482f757ce18e4fa9fb6df955160b2b1
   if (a[0] != b[0]) return a[0] - b[0]
   return a[1] - b[1]
 }

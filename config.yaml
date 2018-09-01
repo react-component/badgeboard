@@ -6,37 +6,29 @@ name: react-component
 badge_style: flat
 
 # meta headers in html
-title:       react-component
-description: react-component
-keywords: react-component
+title: react-component
+description: React components foundation of http://ant.design
+keywords: react-component, antd, ant design, react ui
 
 # list of projects, this will be sorted by name;
 # every package is either string or object
 projects:
  - rc-align:
      repo: react-component/align
- - rc-queue-anim:
-     repo: react-component/queue-anim
+ - rc-drawer:
+     repo: react-component/drawer
  - rc-animate:
      repo: react-component/animate
  - rc-calendar:
      repo: react-component/calendar
- - rc-cascade-select:
-     repo: react-component/cascade-select
  - rc-checkbox:
      repo: react-component/checkbox
  - rc-collapse:
      repo: react-component/collapse
- - rc-css-transition-group:
-     repo: react-component/css-transition-group
  - rc-dialog:
      repo: react-component/dialog
  - rc-dropdown:
      repo: react-component/dropdown
- - rc-dropzone:
-     repo: react-component/dropzone
- - rc-form-validation:
-     repo: react-component/form-validation
  - rc-input-number:
      repo: react-component/input-number
  - rc-menu:
@@ -49,12 +41,10 @@ projects:
      repo: react-component/pagination
  - rc-progress:
      repo: react-component/progress
- - rc-radio:
-     repo: react-component/radio
- - react-colors-picker:
-     repo: react-component/react-colors-picker
- - react-scoped-style:
-     repo: react-component/react-scoped-style
+ - rc-color-picker:
+     repo: react-component/color-picker
+ - rc-cropping:
+     repo: react-component/cropping
  - rc-select:
      repo: react-component/select
  - rc-slider:
@@ -83,45 +73,138 @@ projects:
      repo: react-component/cascader
  - rc-tree-select:
      repo: react-component/tree-select
+ - rc-util:
+     repo: react-component/util
+ - rc-editor-core:
+     repo: react-component/editor-core
+ - rc-editor-mention:
+     repo: react-component/editor-mention
+ - rc-banner-anim:
+     repo: react-component/banner-anim
+ - rc-tween-one:
+     repo: react-component/tween-one
+ - rc-texty:
+     repo: react-component/texty
+ - rc-touchable:
+     repo: react-component/touchable
+ - rc-swipeout:
+     repo: react-component/swipeout
+ - rc-gesture:
+     repo: react-component/gesture
+ - rmc-pull-to-refresh:
+     repo: react-component/m-pull-to-refresh
  - rmc-picker:
      repo: react-component/m-picker
  - rmc-date-picker:
      repo: react-component/m-date-picker
  - rmc-modal:
      repo: react-component/m-modal
+ - dom-align:
+     repo: yiminghe/dom-align
+ - async-validator:
+     repo: yiminghe/async-validator
  - generator-rc
  - rc-server
  - rc-tools
+ - rc-test
 
 # list of maintainers, this won't be sorted
 maintainers:
- - name:    Doug Wilson
-   github:  dougwilson   # github account, required: we link to it
-   npm:     dougwilson   # npm account, required to determine lead maintainer
-   twitter: blipsofadoug # twitter account, optional
-   email:   doug@somethingdoug.com
-
- - name:    Jonathan Ong
-   github:  jonathanong
-   npm:     jongleberry
-   twitter: jongleberry
-   email:   me@jongleberry.com
-
-   # if gravatar is attached to an email different from specified above,
-   # add md5 of it here:
-   avatar:  6e33cc0412b61cc01daac23c8989003c
-
- - name:    Jeremiah Senkpiel
-   github:  fishrock123
-   npm:     fishrock123
-   twitter: fishrock123
-   email:   fishrock123@rocketmail.com
-
- - name:    Alex Kocharin
-   github:  rlidwka
-   npm:     rlidwka
-   twitter: rlidwka
-   email:   alex@kocharin.ru
+ - name:    YiMing He
+   github:  yiminghe
+   npm:     yiminghe
+   twitter: yiminghe
+   email:   yiminghe@gmail.com
+ - name:    afc163
+   github:  afc163
+   npm:     afc163
+   twitter: afc163
+   email:   afc163@gmail.com
+ - name:    yesmeck
+   github:  yesmeck
+   npm:     yesmeck
+   twitter: yesmeck
+   email:   yesmeck@gmail.com
+ - name:    benjycui
+   github:  benjycui
+   npm:     benjycui
+   twitter: benjycui
+   email:   benjycui@gmail.com
+ - name:    zombiej
+   github:  zombiej
+   npm:     zombiej
+   twitter: zombiej
+   email:   zombiej@gmail.com
+ - name:    yutingzhao1991
+   github:  yutingzhao1991
+   npm:     yutingzhao1991
+   twitter: yutingzhao1991
+   email:   yutingzhao1991@gmail.com
+ - name:    XiaoQing Dong
+   github:  dxq613
+   npm:     dxq613
+   twitter: dxq613
+   email:   dxq613@gmail.com
+ - name:    Eward Song
+   github:  shepherdwind
+   npm:     shepherdwind
+   twitter: shepherdwind
+   email:   eward.song@gmail.com
+ - name:    warmhug
+   github:  warmhug
+   npm:     warmhug
+   twitter: warmhug
+   email:   hualei5280@gmail.com
+ - name:    shuaiji.tsj
+   github:  tsj1107
+   npm:     tsj1107
+   twitter: tsj1107
+   email:   tsjxyz@gmail.com
+ - name:    ibigbug
+   github:  ibigbug
+   npm:     ibigbug
+   twitter: ibigbug
+   email:   xiaobayuwei@gmail.com
+ - name:    simaq
+   github:  simaq
+   npm:     simaq
+   twitter: simaq
+   email:   sima.zhang1990@gmail.com
+ - name:    yuhangge
+   github:  yuhangge
+   npm:     yuhangge
+   twitter: yuhangge
+   email:   abeyuhang@gmail.com
+ - name:    sliuqin
+   github:  sliuqin
+   npm:     sliuqin
+   twitter: sliuqin
+   email:   sliuqin@gmail.com
+ - name:    jljsj33
+   github:  jljsj33
+   npm:     jljsj33
+   twitter: jljsj33
+   email:   155259966@qq.com
+ - name:    noyobo
+   github:  noyobo
+   npm:     noyobo
+   twitter: noyobo
+   email:   noyobo@gmail.com
+ - name:    ddcat1115
+   github:  ddcat1115
+   npm:     ddcat1115
+   twitter: ddcat1115
+   email:   ddcat1115@gmail.com
+ - name:    paranoidjk
+   github:  paranoidjk
+   npm:     paranoidjk
+   twitter: paranoidjk
+   email:   paranoidjk@gmail.com
+ - name:    nikogu
+   github:  nikogu
+   npm:     nikogu
+   twitter: nikogu
+   email:   nikogu@gmail.com
 
 # this determines what info will be fetched with `make db`;
 # you can comment out stuff to reduce number of http requests

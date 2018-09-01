@@ -1,4 +1,3 @@
-
 mixin badge(url)
   img(src='https://' + (badge_style ? badge_style + '.' : '') + 'badgen.net/' + url.replace(/^\//, ''))
 
@@ -15,9 +14,29 @@ mixin badge-version(version)
     else
       +badge('/badge/node.js/N%2FA/grey')
 
+mixin badge-github-stars(repo)
+  a(href='https://github.com/' + repo)
+    +badge('/github/stars/' + repo)
+
+mixin badge-github-open-issues(repo)
+  a(href='https://github.com/' + repo + '/issues')
+    +badge('/github/open-issues/' + repo)
+
+mixin badge-github-open-prs(repo)
+  a(href='https://github.com/' + repo + '/pulls')
+    +badge('/github/open-prs/' + repo)
+
+mixin badge-github-last-commit(repo)
+  a(href='https://github.com/' + repo + '/pulls')
+    +badge('/github/last-commit/' + repo)
+
 mixin badge-david(repo)
   a(href='https://david-dm.org/' + repo)
     +badge('/david/dep/' + repo)
+
+mixin badge-david-dev(repo)
+  a(href='https://david-dm.org/' + repo)
+    +badge('/david/dev/' + repo)
 
 mixin badge-travis(repo)
   a(href='https://travis-ci.org/' + repo)
@@ -28,5 +47,5 @@ mixin badge-coverage(repo)
     +badge('/coveralls/c/github/' + repo + '/master')
 
 mixin badge-downloads(npm)
-  a(href='https://npmcharts.com/compare/' + npm + '?minimal=true')
+  a(href='https://npmjs.org/package/' + npm)
     +badge('/npm/dm/' + npm)
