@@ -201,6 +201,11 @@ maintainers:
    npm:     nikogu
    twitter: nikogu
    email:   nikogu@gmail.com
+ - name:    RaoHai
+   github:  raoHai
+   npm:     raoHai
+   twitter: raoHai
+   email:   surgesoft@gmail.com
 
 # this determines what info will be fetched with `make db`;
 # you can comment out stuff to reduce number of http requests
