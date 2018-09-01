@@ -3,23 +3,75 @@
   "//2": "you're free to change it as you like,",
   "//3": "but it will be overwritten on the next build.",
   "maintainers": {
-    "dougwilson": {
-      "packages": 105
+    "afc163": {
+      "packages": 124
     },
-    "fishrock123": {
-      "packages": 45
+    "benjycui": {
+      "packages": 54
     },
-    "jongleberry": {
-      "packages": 559
+    "ddcat1115": {
+      "packages": 6
     },
-    "rlidwka": {
+    "dxq613": {
+      "packages": 5
+    },
+    "ibigbug": {
+      "packages": 5
+    },
+    "jljsj33": {
+      "packages": 13
+    },
+    "nikogu": {
+      "packages": 20
+    },
+    "noyobo": {
+      "packages": 46
+    },
+    "paranoidjk": {
+      "packages": 47
+    },
+    "raoHai": {},
+    "shepherdwind": {
+      "packages": 30
+    },
+    "simaq": {
+      "packages": 22
+    },
+    "sliuqin": {
+      "packages": 14
+    },
+    "tsj1107": {
+      "packages": 4
+    },
+    "warmhug": {
+      "packages": 41
+    },
+    "yesmeck": {
+      "packages": 84
+    },
+    "yiminghe": {
+      "packages": 176
+    },
+    "yuhangge": {
+      "packages": 52
+    },
+    "yutingzhao1991": {
+      "packages": 11
+    },
+    "zombiej": {
       "packages": 15
     }
   },
   "projects": {
-    "generator-rc": {
-      "description": "yeoman generator for react component",
-      "maintainer": "yiminghe"
+    "async-validator": {
+      "description": "validate form asynchronous",
+      "maintainer": "yiminghe",
+      "node": "6.9.1"
+    },
+    "dom-align": {
+      "description": "Align DOM Node Flexibly ",
+      "maintainer": "zombiej",
+      "node": "6.10.0"
     },
     "rc-align": {
       "description": "align ui component for react",
@@ -31,15 +83,15 @@
       "maintainer": "yesmeck",
       "node": 6
     },
+    "rc-banner-anim": {
+      "description": "banner-anim animation component for react",
+      "maintainer": "jljsj33",
+      "node": "6.9.1"
+    },
     "rc-calendar": {
       "description": "React Calendar",
       "maintainer": "yesmeck",
       "node": "6.9.1"
-    },
-    "rc-cascade-select": {
-      "description": "cascade-select ui component for react",
-      "maintainer": "yiminghe",
-      "node": 0.12
     },
     "rc-cascader": {
       "description": "cascade select ui component for react",
@@ -56,14 +108,24 @@
       "maintainer": "afc163",
       "node": 6
     },
-    "rc-css-transition-group": {
-      "description": "css-transition-group ui component for react",
-      "maintainer": "yiminghe",
-      "node": 0.12
+    "rc-color-picker": {
+      "description": "color-picker ui component for react",
+      "maintainer": "noyobo",
+      "node": "6"
+    },
+    "rc-cropping": {
+      "description": "CropViewer component for react",
+      "maintainer": "raohai",
+      "node": "6.9.1"
     },
     "rc-dialog": {
       "description": "dialog ui component for react",
       "maintainer": "yesmeck",
+      "node": "6.9.1"
+    },
+    "rc-drawer": {
+      "description": "drawer component for react",
+      "maintainer": "jljsj33",
       "node": "6.9.1"
     },
     "rc-dropdown": {
@@ -71,20 +133,25 @@
       "maintainer": "zombiej",
       "node": "6.0.0"
     },
-    "rc-dropzone": {
-      "description": "dropzone ui component for react",
-      "maintainer": "shepherdwind",
-      "node": 0.11
+    "rc-editor-core": {
+      "description": "editor-core ui component for react",
+      "maintainer": "afc163",
+      "node": "4.0.0"
+    },
+    "rc-editor-mention": {
+      "description": "mention ui component for react",
+      "maintainer": "afc163",
+      "node": "6.0.0"
     },
     "rc-form": {
       "description": "React High Order Form Component",
       "maintainer": "benjycui",
       "node": 6
     },
-    "rc-form-validation": {
-      "description": "form-validation ui component for react",
-      "maintainer": "yiminghe",
-      "node": "4.0.0"
+    "rc-gesture": {
+      "description": "Support gesture for react component",
+      "maintainer": "paranoidjk",
+      "node": "6.0.0"
     },
     "rc-input-number": {
       "description": "React input-number component",
@@ -101,11 +168,6 @@
       "maintainer": "yesmeck",
       "node": 6
     },
-    "rc-pager": {
-      "description": "pager ui component for react",
-      "maintainer": "yiminghe",
-      "node": 0.12
-    },
     "rc-pagination": {
       "description": "pagination ui component for react",
       "maintainer": "yesmeck",
@@ -116,24 +178,10 @@
       "maintainer": "afc163",
       "node": "6.0.0"
     },
-    "rc-queue-anim": {
-      "description": "Queue animation component for react",
-      "maintainer": "jljsj33",
-      "node": "6.0.0"
-    },
-    "rc-radio": {
-      "description": "radio ui component for react",
-      "maintainer": "afc163",
-      "node": 6
-    },
     "rc-select": {
       "description": "React Select",
       "maintainer": "zombiej",
       "node": "node"
-    },
-    "rc-server": {
-      "description": "server for react-component",
-      "maintainer": "yiminghe"
     },
     "rc-slider": {
       "description": "Slider UI component for React",
@@ -144,6 +192,11 @@
       "description": "steps ui component for react",
       "maintainer": "afc163",
       "node": "node"
+    },
+    "rc-swipeout": {
+      "description": "swipe out ui component for react(web and react-native)",
+      "maintainer": "paranoidjk",
+      "node": "6.9.4"
     },
     "rc-switch": {
       "description": "switch ui component for react",
@@ -160,6 +213,15 @@
       "maintainer": "afc163",
       "node": "6.0.0"
     },
+    "rc-test": {
+      "description": "test tools for react component",
+      "maintainer": "afc163"
+    },
+    "rc-texty": {
+      "description": "text animate component for react",
+      "maintainer": "jljsj33",
+      "node": "6.9.1"
+    },
     "rc-time-picker": {
       "description": "React TimePicker",
       "maintainer": "yesmeck",
@@ -173,6 +235,11 @@
       "description": "React Tooltip",
       "maintainer": "yesmeck",
       "node": 6
+    },
+    "rc-touchable": {
+      "description": "React Touchable Component",
+      "maintainer": "yiminghe",
+      "node": "6.9.1"
     },
     "rc-tree": {
       "description": "tree ui component for react",
@@ -189,19 +256,19 @@
       "maintainer": "afc163",
       "node": "6.9.1"
     },
+    "rc-tween-one": {
+      "description": "tween-one anim component for react",
+      "maintainer": "jljsj33",
+      "node": "6.9.1"
+    },
     "rc-upload": {
       "description": "upload ui component for react",
       "maintainer": "afc163",
       "node": 6
     },
-    "react-colors-picker": {
-      "description": "color-picker ui component for react",
-      "maintainer": "yiminghe",
-      "node": "6"
-    },
-    "react-scoped-style": {
-      "description": "scope react element by transform external style into inline styles",
-      "maintainer": "yiminghe",
+    "rc-util": {
+      "description": "Common Utils For React Component",
+      "maintainer": "zombiej",
       "node": "4.0.0"
     },
     "rmc-date-picker": {
@@ -209,14 +276,20 @@
       "maintainer": "warmhug",
       "node": "6.9.1"
     },
-    "rmc-modal": {
-      "description": "React Mobile Modal",
-      "maintainer": "yiminghe"
+    "rmc-dialog": {
+      "description": "mobile dialog ui component for react",
+      "maintainer": "warmhug",
+      "node": "6.9.1"
     },
     "rmc-picker": {
       "description": "React Mobile Picker Component(web and react-native)",
       "maintainer": "warmhug",
       "node": "6.9.1"
+    },
+    "rmc-pull-to-refresh": {
+      "description": "React Mobile Pull To Refresh Component",
+      "maintainer": "kgtong",
+      "node": 6
     }
   }
 }

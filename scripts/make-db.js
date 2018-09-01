@@ -22,9 +22,13 @@ projectsDB.forEach(function (project) {
   data.projects[project.name] = {}
 })
 
+const delay = (ms) => new Promise(res => setTimeout(res, ms))
+
 require('co')(function *() {
   yield [getInfoFromNpm, getInfoFromGithub, getMaintainersInfo]
-
+}).catch(e => {
+  console.error(e)
+}).finally(() => {
   // it's pretty-printed only for git diffs, don't edit that manually
   var json = JSON.stringify(data, function (k, obj) {
     if (typeof obj !== 'object') return obj
@@ -40,7 +44,7 @@ require('co')(function *() {
     return ret
   }, 2)
   require('fs').writeFileSync(__dirname + '/db.json', json)
-}).then()
+})
 
 
 //
@@ -72,17 +76,15 @@ function *getOwnedPackages(user) {
                      + '?startkey=' + escapeJSON([user])
                      + '&endkey=' + escapeJSON([user, {}])
                      + '&group_level=1') // set group_level=2 for list
-  return JSON.parse(data).rows[0].value
+  return (JSON.parse(data).rows[0] || {}).value
 }
 
 function *getMaintainersInfo() {
   for (var name in data.maintainers) {
-    var mData = data.maintainers[name]
     if (config['db.json'].maintainers.packages)
-      mData.packages = yield getOwnedPackages(name)
-
-    //if (config['db.json'].maintainers.avatar)
-    //  mData.avatar = (yield getUserInfo(name)).avatar
+      data.maintainers[name].packages = yield getOwnedPackages(name)
+    if (config['db.json'].maintainers.avatar)
+      data.maintainers[name].avatar = (yield getUserInfo(name)).avatar
   }
 }
 
@@ -92,6 +94,7 @@ function *getInfoFromNpm() {
 
   for (var i = 0; i < projectsDB.length; i++) {
     var project = projectsDB[i]
+    yield delay(300)
     var npm = yield getNpmInfo(project.npm)
     var projectData = data.projects[project.name]
     projectData.description = npm.description
@@ -107,7 +110,6 @@ function *getInfoFromGithub() {
     var travis = yield getTravis(project.repo)
     var projectData = data.projects[project.name]
     if (travis.node_js) {
-      //console.log(project.name, travis.node_js);
       projectData.node = travis.node_js.sort(versionSort)[0]
     }
   }

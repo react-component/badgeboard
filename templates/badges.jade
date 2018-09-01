@@ -35,7 +35,7 @@ mixin badge-david(repo)
     +badge('/david/dep/' + repo)
 
 mixin badge-david-dev(repo)
-  a(href='https://david-dm.org/' + repo)
+  a(href='https://david-dm.org/' + repo + '?type=dev')
     +badge('/david/dev/' + repo)
 
 mixin badge-travis(repo)
