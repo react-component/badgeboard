@@ -35,8 +35,6 @@ projects:
      repo: react-component/menu
  - rc-notification:
      repo: react-component/notification
- - rc-pager:
-     repo: react-component/pager
  - rc-pagination:
      repo: react-component/pagination
  - rc-progress:
@@ -97,14 +95,12 @@ projects:
      repo: react-component/m-picker
  - rmc-date-picker:
      repo: react-component/m-date-picker
- - rmc-modal:
-     repo: react-component/m-modal
+ - rmc-dialog:
+     repo: react-component/m-dialog
  - dom-align:
      repo: yiminghe/dom-align
  - async-validator:
      repo: yiminghe/async-validator
- - generator-rc
- - rc-server
  - rc-tools
  - rc-test
 
