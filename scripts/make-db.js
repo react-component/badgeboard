@@ -40,7 +40,7 @@ require('co')(function *() {
     return ret
   }, 2)
   require('fs').writeFileSync(__dirname + '/db.json', json)
-})()
+}).then()
 
 
 //
@@ -68,11 +68,10 @@ function *getUserInfo(user) {
 
 function *getOwnedPackages(user) {
   var data = yield get('https://skimdb.npmjs.com/'
-    + 'registry/_design/app/_view/browseAuthors'
-    + '?startkey=' + escapeJSON([user])
-    + '&endkey=' + escapeJSON([user, {}])
-    + '&group_level=1') // set group_level=2 for list
-  console.log(data);
+                     + 'registry/_design/app/_view/browseAuthors'
+                     + '?startkey=' + escapeJSON([user])
+                     + '&endkey=' + escapeJSON([user, {}])
+                     + '&group_level=1') // set group_level=2 for list
   return JSON.parse(data).rows[0].value
 }
 
@@ -136,10 +135,15 @@ function escapeJSON(data) {
 }
 
 function versionSort(a, b) {
+<<<<<<< HEAD
   a += '';
   b += '';
   a = a.split('.')
   b = b.split('.')
+=======
+  a = String(a).split('.')
+  b = String(b).split('.')
+>>>>>>> ec7d06947482f757ce18e4fa9fb6df955160b2b1
   if (a[0] != b[0]) return a[0] - b[0]
   return a[1] - b[1]
 }

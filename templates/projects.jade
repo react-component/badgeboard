@@ -11,7 +11,7 @@ mixin projects(projects)
           span#sorttable_sortfwdind &nbsp;&#x25BE;
         th Homepage
         th Maintainer
-        th.empty(colspan='6')
+        th.sorttable_nosort.empty(colspan='6')
     tbody
       for project in projects
         +project-row(project)

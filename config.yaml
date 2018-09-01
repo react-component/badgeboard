@@ -1,9 +1,9 @@
 # organization name, it's used to get github repo url, also in page title
 name: react-component
 
-# badge style, can be "flat", "flat-square" or ""
-# see http://shields.io/ for details
-badge_style: flat-square
+# badge style, can be "flat" or ""
+# see https://badgen.net/ for details
+badge_style: flat
 
 # meta headers in html
 title:       react-component
@@ -28,13 +28,13 @@ projects:
  - rc-collapse:
      repo: react-component/collapse
  - rc-css-transition-group:
-     repo: react-component/css-transition-group  
+     repo: react-component/css-transition-group
  - rc-dialog:
-     repo: react-component/dialog 
+     repo: react-component/dialog
  - rc-dropdown:
      repo: react-component/dropdown
  - rc-dropzone:
-     repo: react-component/dropzone  
+     repo: react-component/dropzone
  - rc-form-validation:
      repo: react-component/form-validation
  - rc-input-number:
@@ -92,81 +92,37 @@ projects:
  - generator-rc
  - rc-server
  - rc-tools
- 
+
 # list of maintainers, this won't be sorted
 maintainers:
- - name:    YiMing He
-   github:  yiminghe
-   npm:     yiminghe
-   twitter: yiminghe
-   email:   yiminghe@gmail.com
-   gittip:  yiminghe
- - name:    afc163
-   github:  afc163
-   npm:     afc163
-   twitter: afc163
-   email:   afc163@gmail.com
-   gittip:  afc163
- - name:    XiaoQing Dong
-   github:  dxq613
-   npm:     dxq613
-   twitter: dxq613
-   email:   dxq613@gmail.com
-   gittip:  dxq613
- - name:    Eward Song
-   github:  shepherdwind
-   npm:     shepherdwind
-   twitter: shepherdwind
-   email:   eward.song@gmail.com
-   gittip:  shepherdwind
- - name:    warmhug
-   github:  warmhug
-   npm:     warmhug
-   twitter: warmhug
-   email:   hualei5280@gmail.com
-   gittip:  warmhug
- - name:    shuaiji.tsj
-   github:  tsj1107
-   npm:     tsj1107
-   twitter: tsj1107
-   email:   tsjxyz@gmail.com
-   gittip:  tsj1107
- - name:    ibigbug
-   github:  ibigbug
-   npm:     ibigbug
-   twitter: ibigbug
-   email:   xiaobayuwei@gmail.com
-   gittip:  ibigbug
- - name:    simaq
-   github:  simaq
-   npm:     simaq
-   twitter: simaq
-   email:   sima.zhang1990@gmail.com
-   gittip:  simaq
- - name:    yuhangge 
-   github:  yuhangge 
-   npm:     yuhangge 
-   twitter: yuhangge 
-   email:   abeyuhang@gmail.com
-   gittip:  yuhangge
- - name:    sliuqin 
-   github:  sliuqin 
-   npm:     sliuqin 
-   twitter: sliuqin 
-   email:   sliuqin@gmail.com
-   gittip:  sliuqin
- - name:    jljsj33 
-   github:  jljsj33 
-   npm:     jljsj33 
-   twitter: jljsj33 
-   email:   155259966@qq.com
-   gittip:  jljsj33
- - name:    noyobo
-   github:  noyobo
-   npm:     noyobo
-   twitter: noyobo
-   email:   noyobo@gmail.com
-   gittip:  noyobo
+ - name:    Doug Wilson
+   github:  dougwilson   # github account, required: we link to it
+   npm:     dougwilson   # npm account, required to determine lead maintainer
+   twitter: blipsofadoug # twitter account, optional
+   email:   doug@somethingdoug.com
+
+ - name:    Jonathan Ong
+   github:  jonathanong
+   npm:     jongleberry
+   twitter: jongleberry
+   email:   me@jongleberry.com
+
+   # if gravatar is attached to an email different from specified above,
+   # add md5 of it here:
+   avatar:  6e33cc0412b61cc01daac23c8989003c
+
+ - name:    Jeremiah Senkpiel
+   github:  fishrock123
+   npm:     fishrock123
+   twitter: fishrock123
+   email:   fishrock123@rocketmail.com
+
+ - name:    Alex Kocharin
+   github:  rlidwka
+   npm:     rlidwka
+   twitter: rlidwka
+   email:   alex@kocharin.ru
+
 # this determines what info will be fetched with `make db`;
 # you can comment out stuff to reduce number of http requests
 db.json:
