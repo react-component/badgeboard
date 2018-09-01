@@ -202,9 +202,9 @@ maintainers:
    twitter: nikogu
    email:   nikogu@gmail.com
  - name:    RaoHai
-   github:  raoHai
-   npm:     raoHai
-   twitter: raoHai
+   github:  raohai
+   npm:     raohai
+   twitter: raohai
    email:   surgesoft@gmail.com
 
 # this determines what info will be fetched with `make db`;
