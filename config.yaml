@@ -121,7 +121,7 @@ projects:
      repo: yiminghe/dom-align
  - async-validator:
      repo: yiminghe/async-validator
- - image:
+ - rc-image:
      repo: react-component/image
 
 # list of maintainers, this won't be sorted
