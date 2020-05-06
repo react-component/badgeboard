@@ -3,293 +3,81 @@
   "//2": "you're free to change it as you like,",
   "//3": "but it will be overwritten on the next build.",
   "maintainers": {
-    "afc163": {
-      "packages": 124
-    },
-    "benjycui": {
-      "packages": 54
-    },
-    "ddcat1115": {
-      "packages": 6
-    },
-    "dxq613": {
-      "packages": 5
-    },
-    "ibigbug": {
-      "packages": 5
-    },
-    "jljsj33": {
-      "packages": 13
-    },
-    "nikogu": {
-      "packages": 20
-    },
-    "noyobo": {
-      "packages": 46
-    },
-    "paranoidjk": {
-      "packages": 47
-    },
-    "raoHai": {},
-    "shepherdwind": {
-      "packages": 30
-    },
-    "simaq": {
-      "packages": 22
-    },
-    "sliuqin": {
-      "packages": 14
-    },
-    "tsj1107": {
-      "packages": 4
-    },
-    "warmhug": {
-      "packages": 41
-    },
-    "yesmeck": {
-      "packages": 84
-    },
-    "yiminghe": {
-      "packages": 176
-    },
-    "yuhangge": {
-      "packages": 52
-    },
-    "yutingzhao1991": {
-      "packages": 11
-    },
-    "zombiej": {
-      "packages": 15
-    }
+    "afc163": {},
+    "benjycui": {},
+    "ddcat1115": {},
+    "dxq613": {},
+    "ibigbug": {},
+    "jljsj33": {},
+    "nikogu": {},
+    "noyobo": {},
+    "paranoidjk": {},
+    "raohai": {},
+    "shepherdwind": {},
+    "simaq": {},
+    "sliuqin": {},
+    "tsj1107": {},
+    "warmhug": {},
+    "yesmeck": {},
+    "yiminghe": {},
+    "yuhangge": {},
+    "yutingzhao1991": {},
+    "zombiej": {}
   },
   "projects": {
-    "async-validator": {
-      "description": "validate form asynchronous",
-      "maintainer": "yiminghe",
-      "node": "6.9.1"
-    },
-    "dom-align": {
-      "description": "Align DOM Node Flexibly ",
-      "maintainer": "zombiej",
-      "node": "6.10.0"
-    },
-    "rc-align": {
-      "description": "align ui component for react",
-      "maintainer": "zombiej",
-      "node": "6.10.0"
-    },
-    "rc-animate": {
-      "description": "css-transition ui component for react",
-      "maintainer": "yesmeck",
-      "node": 6
-    },
-    "rc-banner-anim": {
-      "description": "banner-anim animation component for react",
-      "maintainer": "jljsj33",
-      "node": "6.9.1"
-    },
-    "rc-calendar": {
-      "description": "React Calendar",
-      "maintainer": "yesmeck",
-      "node": "6.9.1"
-    },
-    "rc-cascader": {
-      "description": "cascade select ui component for react",
-      "maintainer": "yesmeck",
-      "node": 6
-    },
-    "rc-checkbox": {
-      "description": "checkbox ui component for react",
-      "maintainer": "afc163",
-      "node": 6
-    },
-    "rc-collapse": {
-      "description": "rc-collapse ui component for react",
-      "maintainer": "afc163",
-      "node": 6
-    },
-    "rc-color-picker": {
-      "description": "color-picker ui component for react",
-      "maintainer": "noyobo",
-      "node": "6"
-    },
-    "rc-cropping": {
-      "description": "CropViewer component for react",
-      "maintainer": "raohai",
-      "node": "6.9.1"
-    },
-    "rc-dialog": {
-      "description": "dialog ui component for react",
-      "maintainer": "yesmeck",
-      "node": "6.9.1"
-    },
-    "rc-drawer": {
-      "description": "drawer component for react",
-      "maintainer": "jljsj33",
-      "node": "6.9.1"
-    },
-    "rc-dropdown": {
-      "description": "dropdown ui component for react",
-      "maintainer": "zombiej",
-      "node": "6.0.0"
-    },
-    "rc-editor-core": {
-      "description": "editor-core ui component for react",
-      "maintainer": "afc163",
-      "node": "4.0.0"
-    },
-    "rc-editor-mention": {
-      "description": "mention ui component for react",
-      "maintainer": "afc163",
-      "node": "6.0.0"
-    },
-    "rc-form": {
-      "description": "React High Order Form Component",
-      "maintainer": "benjycui",
-      "node": 6
-    },
-    "rc-gesture": {
-      "description": "Support gesture for react component",
-      "maintainer": "paranoidjk",
-      "node": "6.0.0"
-    },
-    "rc-input-number": {
-      "description": "React input-number component",
-      "maintainer": "zombiej",
-      "node": 6
-    },
-    "rc-menu": {
-      "description": "menu ui component for react",
-      "maintainer": "yesmeck",
-      "node": "6.0.0"
-    },
-    "rc-notification": {
-      "description": "notification ui component for react",
-      "maintainer": "yesmeck",
-      "node": 6
-    },
-    "rc-pagination": {
-      "description": "pagination ui component for react",
-      "maintainer": "yesmeck",
-      "node": 6
-    },
-    "rc-progress": {
-      "description": "progress ui component for react",
-      "maintainer": "afc163",
-      "node": "6.0.0"
-    },
-    "rc-select": {
-      "description": "React Select",
-      "maintainer": "zombiej",
-      "node": "node"
-    },
-    "rc-slider": {
-      "description": "Slider UI component for React",
-      "maintainer": "yesmeck",
-      "node": "6.0.0"
-    },
-    "rc-steps": {
-      "description": "steps ui component for react",
-      "maintainer": "afc163",
-      "node": "node"
-    },
-    "rc-swipeout": {
-      "description": "swipe out ui component for react(web and react-native)",
-      "maintainer": "paranoidjk",
-      "node": "6.9.4"
-    },
-    "rc-switch": {
-      "description": "switch ui component for react",
-      "maintainer": "yesmeck",
-      "node": 6
-    },
-    "rc-table": {
-      "description": "table ui component for react",
-      "maintainer": "yesmeck",
-      "node": 8
-    },
-    "rc-tabs": {
-      "description": "tabs ui component for react",
-      "maintainer": "afc163",
-      "node": "6.0.0"
-    },
-    "rc-test": {
-      "description": "test tools for react component",
-      "maintainer": "afc163"
-    },
-    "rc-texty": {
-      "description": "text animate component for react",
-      "maintainer": "jljsj33",
-      "node": "6.9.1"
-    },
-    "rc-time-picker": {
-      "description": "React TimePicker",
-      "maintainer": "yesmeck",
-      "node": 6
-    },
-    "rc-tools": {
-      "description": "offline tools for react component",
-      "maintainer": "zombiej"
-    },
-    "rc-tooltip": {
-      "description": "React Tooltip",
-      "maintainer": "yesmeck",
-      "node": 6
-    },
-    "rc-touchable": {
-      "description": "React Touchable Component",
-      "maintainer": "yiminghe",
-      "node": "6.9.1"
-    },
-    "rc-tree": {
-      "description": "tree ui component for react",
-      "maintainer": "zombiej",
-      "node": 6
-    },
-    "rc-tree-select": {
-      "description": "tree-select ui component for react",
-      "maintainer": "zombiej",
-      "node": 6
-    },
-    "rc-trigger": {
-      "description": "base abstract trigger component for react",
-      "maintainer": "afc163",
-      "node": "6.9.1"
-    },
-    "rc-tween-one": {
-      "description": "tween-one anim component for react",
-      "maintainer": "jljsj33",
-      "node": "6.9.1"
-    },
-    "rc-upload": {
-      "description": "upload ui component for react",
-      "maintainer": "afc163",
-      "node": 6
-    },
-    "rc-util": {
-      "description": "Common Utils For React Component",
-      "maintainer": "zombiej",
-      "node": "4.0.0"
-    },
-    "rmc-date-picker": {
-      "description": "React Mobile DatePicker Component for web and react-native",
-      "maintainer": "warmhug",
-      "node": "6.9.1"
-    },
-    "rmc-dialog": {
-      "description": "mobile dialog ui component for react",
-      "maintainer": "warmhug",
-      "node": "6.9.1"
-    },
-    "rmc-picker": {
-      "description": "React Mobile Picker Component(web and react-native)",
-      "maintainer": "warmhug",
-      "node": "6.9.1"
-    },
-    "rmc-pull-to-refresh": {
-      "description": "React Mobile Pull To Refresh Component",
-      "maintainer": "kgtong",
-      "node": 6
-    }
+    "async-validator": {},
+    "dom-align": {},
+    "image": {},
+    "rc-align": {},
+    "rc-animate": {},
+    "rc-banner-anim": {},
+    "rc-calendar": {},
+    "rc-cascader": {},
+    "rc-checkbox": {},
+    "rc-collapse": {},
+    "rc-color-picker": {},
+    "rc-cropping": {},
+    "rc-dialog": {},
+    "rc-drawer": {},
+    "rc-dropdown": {},
+    "rc-field-form": {},
+    "rc-footer": {},
+    "rc-form": {},
+    "rc-gesture": {},
+    "rc-input-number": {},
+    "rc-mentions": {},
+    "rc-menu": {},
+    "rc-notification": {},
+    "rc-pagination": {},
+    "rc-picker": {},
+    "rc-progress": {},
+    "rc-resize-observer": {},
+    "rc-select": {},
+    "rc-slider": {},
+    "rc-steps": {},
+    "rc-swipeout": {},
+    "rc-switch": {},
+    "rc-table": {},
+    "rc-tabs": {},
+    "rc-texty": {},
+    "rc-time-picker": {},
+    "rc-tooltip": {},
+    "rc-touchable": {},
+    "rc-tree": {},
+    "rc-tree-select": {},
+    "rc-trigger": {},
+    "rc-tween-one": {},
+    "rc-upload": {},
+    "rc-util": {},
+    "rc-virtual-list": {},
+    "rmc-calendar": {},
+    "rmc-date-picker": {},
+    "rmc-dialog": {},
+    "rmc-drawer": {},
+    "rmc-input-number": {},
+    "rmc-list-view": {},
+    "rmc-picker": {},
+    "rmc-pull-to-refresh": {},
+    "rmc-tabs": {}
   }
 }

@@ -42,10 +42,26 @@ mixin badge-travis(repo)
   a(href='https://travis-ci.org/' + repo)
     +badge('/travis/' + repo + '/master')
 
-mixin badge-coverage(repo)
+mixin badge-coveralls(repo)
   a(href='https://coveralls.io/r/' + repo)
     +badge('/coveralls/c/github/' + repo + '/master')
+
+mixin badge-circleci(repo)
+  a(href='https://circleci.com/gh/' + repo)
+    +badge('/circleci/github/' + repo + '/master')
+
+mixin badge-codecov(repo)
+  a(href='https://codecov.io/gh/' + repo)
+    +badge('/codecov/c/github/' + repo + '/master')
 
 mixin badge-downloads(npm)
   a(href='https://npmjs.org/package/' + npm)
     +badge('/npm/dm/' + npm)
+
+mixin bundle-size(npm)
+  a(href='https://bundlephobia.com/result?p=' + npm)
+    +badge('/bundlephobia/minzip/' + npm)
+
+mixin install-size(npm)
+  a(href='https://packagephobia.now.sh/result?p=' + npm)
+    +badge('/packagephobia/install/' + npm)

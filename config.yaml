@@ -15,34 +15,44 @@ keywords: react-component, antd, ant design, react ui
 projects:
  - rc-align:
      repo: react-component/align
- - rc-drawer:
-     repo: react-component/drawer
  - rc-animate:
      repo: react-component/animate
- - rc-calendar:
-     repo: react-component/calendar
- - rc-checkbox:
-     repo: react-component/checkbox
- - rc-collapse:
-     repo: react-component/collapse
- - rc-dialog:
-     repo: react-component/dialog
- - rc-dropdown:
-     repo: react-component/dropdown
- - rc-input-number:
-     repo: react-component/input-number
- - rc-menu:
-     repo: react-component/menu
- - rc-notification:
-     repo: react-component/notification
- - rc-pagination:
-     repo: react-component/pagination
- - rc-progress:
-     repo: react-component/progress
  - rc-color-picker:
      repo: react-component/color-picker
  - rc-cropping:
      repo: react-component/cropping
+ - rc-calendar:
+     repo: react-component/calendar
+ - rc-checkbox:
+     repo: react-component/checkbox
+ - rc-cascader:
+     repo: react-component/cascader
+ - rc-collapse:
+     repo: react-component/collapse
+ - rc-drawer:
+     repo: react-component/drawer
+ - rc-dialog:
+     repo: react-component/dialog
+ - rc-dropdown:
+     repo: react-component/dropdown
+ - rc-footer:
+     repo: react-component/footer
+ - rc-input-number:
+     repo: react-component/input-number
+ - rc-mentions:
+     repo: react-component/mentions
+ - rc-menu:
+     repo: react-component/menu
+ - rc-notification:
+     repo: react-component/notification
+ - rc-picker:
+     repo: react-component/picker
+ - rc-pagination:
+     repo: react-component/pagination
+ - rc-progress:
+     repo: react-component/progress
+ - rc-resize-observer:
+     repo: react-component/resize-observer
  - rc-select:
      repo: react-component/select
  - rc-slider:
@@ -65,24 +75,22 @@ projects:
      repo: react-component/trigger
  - rc-time-picker:
      repo: react-component/time-picker
+ - rc-field-form:
+     repo: react-component/field-form
  - rc-form:
      repo: react-component/form
- - rc-cascader:
-     repo: react-component/cascader
  - rc-tree-select:
      repo: react-component/tree-select
  - rc-util:
      repo: react-component/util
- - rc-editor-core:
-     repo: react-component/editor-core
- - rc-editor-mention:
-     repo: react-component/editor-mention
  - rc-banner-anim:
      repo: react-component/banner-anim
  - rc-tween-one:
      repo: react-component/tween-one
  - rc-texty:
      repo: react-component/texty
+ - rc-virtual-list:
+     repo: react-component/virtual-list
  - rc-touchable:
      repo: react-component/touchable
  - rc-swipeout:
@@ -97,12 +105,24 @@ projects:
      repo: react-component/m-date-picker
  - rmc-dialog:
      repo: react-component/m-dialog
+ - rmc-input-number:
+     repo: react-component/m-input-number
+ - rmc-pull-to-refresh:
+     repo: react-component/m-pull-to-refresh
+ - rmc-list-view:
+     repo: react-component/m-list-view
+ - rmc-calendar:
+     repo: react-component/m-calendar
+ - rmc-drawer:
+     repo: react-component/m-drawer
+ - rmc-tabs:
+     repo: react-component/m-tabs
  - dom-align:
      repo: yiminghe/dom-align
  - async-validator:
      repo: yiminghe/async-validator
- - rc-tools
- - rc-test
+ - image:
+     repo: react-component/image
 
 # list of maintainers, this won't be sorted
 maintainers:
