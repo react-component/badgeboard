@@ -30,25 +30,9 @@ mixin badge-github-last-commit(repo)
   a(href='https://github.com/' + repo + '/pulls')
     +badge('/github/last-commit/' + repo)
 
-mixin badge-david(repo)
-  a(href='https://david-dm.org/' + repo)
-    +badge('/david/dep/' + repo)
-
-mixin badge-david-dev(repo)
-  a(href='https://david-dm.org/' + repo + '?type=dev')
-    +badge('/david/dev/' + repo)
-
 mixin badge-travis(repo)
   a(href='https://travis-ci.org/' + repo)
     +badge('/travis/' + repo + '/master')
-
-mixin badge-coveralls(repo)
-  a(href='https://coveralls.io/r/' + repo)
-    +badge('/coveralls/c/github/' + repo + '/master')
-
-mixin badge-circleci(repo)
-  a(href='https://circleci.com/gh/' + repo)
-    +badge('/circleci/github/' + repo + '/master')
 
 mixin badge-codecov(repo)
   a(href='https://codecov.io/gh/' + repo)
@@ -59,7 +43,7 @@ mixin badge-downloads(npm)
     +badge('/npm/dm/' + npm)
 
 mixin bundle-size(npm)
-  a(href='https://bundlephobia.com/result?p=' + npm)
+  a(href='https://bundlephobia.com/package/' + npm)
     +badge('/bundlephobia/minzip/' + npm)
 
 mixin install-size(npm)

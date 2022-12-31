@@ -13,14 +13,30 @@ keywords: react-component, antd, ant design, react ui
 # list of projects, this will be sorted by name;
 # every package is either string or object
 projects:
+ - '@rc-component/tour':
+     repo: react-component/tour
+ - '@rc-component/portal':
+     repo: react-component/portal
+ - rc-segmented:
+     repo: react-component/segmented
+ - '@rc-component/mutate-observer':
+     repo: react-component/mutate-observer
+ - rc-resize-observer:
+     repo: react-component/resize-observer
+ - '@rc-component/context':
+     repo: react-component/context
+ - '@rc-component/mini-decimal':
+     repo: react-component/mini-decimal
+ - rc-overflow:
+     repo: react-component/overflow
+ - rc-input:
+     repo: react-component/input
+ - rc-textarea:
+     repo: react-component/textarea
+ - rc-motion:
+     repo: react-component/motion
  - rc-align:
      repo: react-component/align
- - rc-animate:
-     repo: react-component/animate
- - rc-color-picker:
-     repo: react-component/color-picker
- - rc-cropping:
-     repo: react-component/cropping
  - rc-calendar:
      repo: react-component/calendar
  - rc-checkbox:
