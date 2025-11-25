@@ -35,8 +35,6 @@ projects:
      repo: react-component/textarea
  - '@rc-component/motion':
      repo: react-component/motion
-
-
  - '@rc-component/checkbox':
      repo: react-component/checkbox
  - '@rc-component/cascader':
@@ -87,7 +85,6 @@ projects:
      repo: react-component/upload
  - '@rc-component/trigger':
      repo: react-component/trigger
-
  - '@rc-component/field-form':
      repo: react-component/field-form
  - '@rc-component/form':
@@ -96,14 +93,8 @@ projects:
      repo: react-component/tree-select
  - '@rc-component/util':
      repo: react-component/util
-
-
-
  - '@rc-component/virtual-list':
      repo: react-component/virtual-list
-
-
-
  - dom-align:
      repo: yiminghe/dom-align
  - async-validator:
