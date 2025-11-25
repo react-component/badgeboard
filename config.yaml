@@ -35,10 +35,6 @@ projects:
      repo: react-component/textarea
  - '@rc-component/motion':
      repo: react-component/motion
- - '@rc-component/align':
-     repo: react-component/align
- - '@rc-component/calendar':
-     repo: react-component/calendar
  - '@rc-component/checkbox':
      repo: react-component/checkbox
  - '@rc-component/cascader':
@@ -89,30 +85,14 @@ projects:
      repo: react-component/upload
  - '@rc-component/trigger':
      repo: react-component/trigger
- - '@rc-component/time-picker':
-     repo: react-component/time-picker
- - '@rc-component/field-form':
-     repo: react-component/field-form
  - '@rc-component/form':
      repo: react-component/form
  - '@rc-component/tree-select':
      repo: react-component/tree-select
  - '@rc-component/util':
      repo: react-component/util
- - '@rc-component/banner-anim':
-     repo: react-component/banner-anim
- - '@rc-component/tween-one':
-     repo: react-component/tween-one
- - '@rc-component/texty':
-     repo: react-component/texty
  - '@rc-component/virtual-list':
      repo: react-component/virtual-list
- - '@rc-component/touchable':
-     repo: react-component/touchable
- - '@rc-component/swipeout':
-     repo: react-component/swipeout
- - '@rc-component/gesture':
-     repo: react-component/gesture
  - dom-align:
      repo: yiminghe/dom-align
  - async-validator:
