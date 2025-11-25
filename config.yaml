@@ -17,127 +17,107 @@ projects:
      repo: react-component/tour
  - '@rc-component/portal':
      repo: react-component/portal
- - rc-segmented:
+ - '@rc-component/segmented':
      repo: react-component/segmented
  - '@rc-component/mutate-observer':
      repo: react-component/mutate-observer
- - rc-resize-observer:
+ - '@rc-component/resize-observer':
      repo: react-component/resize-observer
  - '@rc-component/context':
      repo: react-component/context
  - '@rc-component/mini-decimal':
      repo: react-component/mini-decimal
- - rc-overflow:
+ - '@rc-component/overflow':
      repo: react-component/overflow
- - rc-input:
+ - '@rc-component/input':
      repo: react-component/input
- - rc-textarea:
+ - '@rc-component/textarea':
      repo: react-component/textarea
- - rc-motion:
+ - '@rc-component/motion':
      repo: react-component/motion
- - rc-align:
+ - '@rc-component/align':
      repo: react-component/align
- - rc-calendar:
+ - '@rc-component/calendar':
      repo: react-component/calendar
- - rc-checkbox:
+ - '@rc-component/checkbox':
      repo: react-component/checkbox
- - rc-cascader:
+ - '@rc-component/cascader':
      repo: react-component/cascader
- - rc-collapse:
+ - '@rc-component/collapse':
      repo: react-component/collapse
- - rc-drawer:
+ - '@rc-component/drawer':
      repo: react-component/drawer
- - rc-dialog:
+ - '@rc-component/dialog':
      repo: react-component/dialog
- - rc-dropdown:
+ - '@rc-component/dropdown':
      repo: react-component/dropdown
- - rc-footer:
+ - '@rc-component/footer':
      repo: react-component/footer
- - rc-input-number:
+ - '@rc-component/input-number':
      repo: react-component/input-number
- - rc-mentions:
+ - '@rc-component/mentions':
      repo: react-component/mentions
- - rc-menu:
+ - '@rc-component/menu':
      repo: react-component/menu
- - rc-notification:
+ - '@rc-component/notification':
      repo: react-component/notification
- - rc-picker:
+ - '@rc-component/picker':
      repo: react-component/picker
- - rc-pagination:
+ - '@rc-component/pagination':
      repo: react-component/pagination
- - rc-progress:
+ - '@rc-component/progress':
      repo: react-component/progress
- - rc-resize-observer:
+ - '@rc-component/resize-observer':
      repo: react-component/resize-observer
- - rc-select:
+ - '@rc-component/select':
      repo: react-component/select
- - rc-slider:
+ - '@rc-component/slider':
      repo: react-component/slider
- - rc-steps:
+ - '@rc-component/steps':
      repo: react-component/steps
- - rc-switch:
+ - '@rc-component/switch':
      repo: react-component/switch
- - rc-table:
+ - '@rc-component/table':
      repo: react-component/table
- - rc-tabs:
+ - '@rc-component/tabs':
      repo: react-component/tabs
- - rc-tooltip:
+ - '@rc-component/tooltip':
      repo: react-component/tooltip
- - rc-tree:
+ - '@rc-component/tree':
      repo: react-component/tree
- - rc-upload:
+ - '@rc-component/upload':
      repo: react-component/upload
- - rc-trigger:
+ - '@rc-component/trigger':
      repo: react-component/trigger
- - rc-time-picker:
+ - '@rc-component/time-picker':
      repo: react-component/time-picker
- - rc-field-form:
+ - '@rc-component/field-form':
      repo: react-component/field-form
- - rc-form:
+ - '@rc-component/form':
      repo: react-component/form
- - rc-tree-select:
+ - '@rc-component/tree-select':
      repo: react-component/tree-select
- - rc-util:
+ - '@rc-component/util':
      repo: react-component/util
- - rc-banner-anim:
+ - '@rc-component/banner-anim':
      repo: react-component/banner-anim
- - rc-tween-one:
+ - '@rc-component/tween-one':
      repo: react-component/tween-one
- - rc-texty:
+ - '@rc-component/texty':
      repo: react-component/texty
- - rc-virtual-list:
+ - '@rc-component/virtual-list':
      repo: react-component/virtual-list
- - rc-touchable:
+ - '@rc-component/touchable':
      repo: react-component/touchable
- - rc-swipeout:
+ - '@rc-component/swipeout':
      repo: react-component/swipeout
- - rc-gesture:
+ - '@rc-component/gesture':
      repo: react-component/gesture
- - rmc-pull-to-refresh:
-     repo: react-component/m-pull-to-refresh
- - rmc-picker:
-     repo: react-component/m-picker
- - rmc-date-picker:
-     repo: react-component/m-date-picker
- - rmc-dialog:
-     repo: react-component/m-dialog
- - rmc-input-number:
-     repo: react-component/m-input-number
- - rmc-pull-to-refresh:
-     repo: react-component/m-pull-to-refresh
- - rmc-list-view:
-     repo: react-component/m-list-view
- - rmc-calendar:
-     repo: react-component/m-calendar
- - rmc-drawer:
-     repo: react-component/m-drawer
- - rmc-tabs:
-     repo: react-component/m-tabs
  - dom-align:
      repo: yiminghe/dom-align
  - async-validator:
      repo: yiminghe/async-validator
- - rc-image:
+ - '@rc-component/image':
      repo: react-component/image
 
 # list of maintainers, this won't be sorted
