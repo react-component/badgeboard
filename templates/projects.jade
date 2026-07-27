@@ -35,7 +35,7 @@ mixin project(project)
   a(title=project.description, href='https://github.com/' + project.repo)= project.name
 
 mixin homepage(project)
-  a(title=project.description, href=project.homepage || 'http://react-component.github.io/' + project.name.replace(/^rc-/,''))= project.name
+  a(title=project.description, href=project.homepage || 'https://react-component.github.io/' + project.repo.split('/').pop())= project.name
 
 mixin maintainer(person)
   if typeof(person) === 'object' && person != null
