@@ -39,6 +39,7 @@ projects:
      repo: react-component/checkbox
  - '@rc-component/cascader':
      repo: react-component/cascader
+     homepage: https://react-component.github.io/cascader
  - '@rc-component/collapse':
      repo: react-component/collapse
  - '@rc-component/drawer':
