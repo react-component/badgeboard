@@ -87,7 +87,7 @@ projects:
  - '@rc-component/trigger':
      repo: react-component/trigger
  - '@rc-component/form':
-     repo: react-component/form
+     repo: react-component/field-form
  - '@rc-component/tree-select':
      repo: react-component/tree-select
  - '@rc-component/util':
