@@ -64,8 +64,6 @@ projects:
      repo: react-component/pagination
  - '@rc-component/progress':
      repo: react-component/progress
- - '@rc-component/resize-observer':
-     repo: react-component/resize-observer
  - '@rc-component/select':
      repo: react-component/select
  - '@rc-component/slider':
